@@ -1,0 +1,206 @@
+Create a world-class, modern, responsive corporate website for "DESHET GLOBAL TRADING PLC".
+The website should look premium, trustworthy, luxurious, and international. It should combine the style of a Fortune 500 company with a modern trading and investment company.
+Company Overview
+DESHET GLOBAL TRADING PLC is an Ethiopian company involved in:
+Soybeans
+Sesame Seeds
+Soybean Oil
+Lithium
+Gold
+Opal
+Emerald
+Future Hotel Investment
+AC Car Mobility
+Global Import & Export
+The website must help attract:
+International Buyers
+Investors
+Business Partners
+Distributors
+Hotels
+Manufacturers
+Governments
+Mining Companies
+Design Style
+Create a premium UI using:
+Black (#0D0D0D)
+Emerald Green (#0E7A38)
+White (#FFFFFF)
+Fonts
+Poppins
+Montserrat
+Style
+Modern
+Luxury
+Corporate
+Elegant
+Clean
+Smooth animations
+Glassmorphism where appropriate
+Rounded cards
+Large hero images
+Professional icons
+High-quality product photography
+Responsive for Desktop, Tablet, and Mobile
+Hero Section
+Large full-screen hero banner with cinematic background.
+Headline:
+Global Trading Built on Trust
+Subheading:
+"Connecting Ethiopia's finest agricultural products, minerals, and future investments with the global market."
+Buttons:
+Explore Products
+Contact Us
+Include animated statistics:
+10+ Products
+Global Export
+Trusted Partners
+Premium Quality
+Navigation Menu
+Home
+About Us
+Products
+Investments
+Services
+Why Choose Us
+News & Insights
+Contact
+Sticky transparent navigation.
+About Us
+Include:
+Company Overview
+Mission
+Vision
+Core Values
+Company History
+Leadership Team
+Products Page
+Create premium product cards with large HD images.
+Products:
+Agriculture
+Soybeans
+Sesame Seeds
+Soybean Oil
+Minerals
+Lithium
+Gold
+Opal
+Emerald
+Each product page should include:
+Hero image
+Product Overview
+Specifications
+Applications
+Packaging
+Export Markets
+Gallery
+Inquiry Form
+Investments
+Show investment opportunities:
+Future Hotel
+Luxury hospitality investment.
+AC Car Mobility
+Electric mobility and transportation solutions.
+Include investment cards with icons and animations.
+Services
+Display services in icon cards.
+Global Sourcing
+Import & Export
+Logistics
+International Trading
+Quality Inspection
+Supply Chain Management
+Warehousing
+Business Consulting
+Why Choose Us
+Create animated cards.
+Reasons:
+Trusted Supplier
+Premium Quality
+Sustainable Business
+Competitive Pricing
+Experienced Team
+Fast Delivery
+Global Network
+Customer Satisfaction
+News & Insights
+Include blog layout:
+Company News
+Trade Updates
+Export News
+Mining Industry
+Agriculture Market
+Investment Articles
+Contact Page
+Include:
+Google Maps
+Office Address
+Phone=+251912619321
+Email=yodghion777@gmail.com
+Business owners=MR TEWODROS MEZGEBU GETAHUN
+DESHET GLOBAL  CEO AND FUNDER
+marketing and promotion manager=Yonatan Gizachew wondie
+Inquiry Form
+Footer
+Include:
+Company Logo
+Quick Links
+Products
+Services
+Investments
+Newsletter
+Social Media Icons
+Copyright
+Extra Premium Features
+Dark Mode
+Light Mode
+Multi-language (English, Amharic)
+SEO Optimized
+Fast Loading
+Mobile First
+WhatsApp Floating Button
+Live Chat
+Animated Counters
+Scroll Animations
+Image Gallery
+Video Background
+Download Company Profile PDF
+Product Inquiry Form
+Investor Inquiry Form
+Images
+Use ultra-high-quality royalty-free images for:
+Soybean farms
+Sesame fields
+Soybean oil
+Gold nuggets
+Lithium rocks
+Opal gemstones
+Emerald gemstones
+Modern logistics
+Cargo ships
+Containers
+Mining operations
+Luxury hotel
+Electric vehicles
+Ethiopian landscapes
+Addis Ababa skyline
+Professional business team
+Technologies
+Generate production-ready code using:
+HTML5
+Tailwind CSS
+JavaScript
+React
+Next.js
+Framer Motion animations
+Include:
+Responsive Design
+Clean Folder Structure
+Reusable Components
+SEO Meta Tags
+Lazy Loading Images
+Optimized Performance
+Accessibility (WCAG)
+Cross-browser Compatibility
+Overall Goal
+Design a visually stunning, premium international trading and investment website that matches the quality of companies like Cargill, Glencore, BHP, and Rio Tinto, while showcasing Ethiopia's resources and positioning DESHET GLOBAL TRADING PLC as a trusted global brand for agriculture, mining, investment, and international trade.

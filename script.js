@@ -1,59 +1,56 @@
-
 // Mobile menu
 
 const menu = document.querySelector(".menu");
-const nav = document.querySelector("nav");
+const nav = document.querySelector("nav ul");
 
 
-menu.addEventListener("click", ()=>{
+menu.addEventListener("click",()=>{
 
-    if(nav.style.display === "flex"){
-        nav.style.display = "none";
-    }
-    else{
-        nav.style.display = "flex";
-        nav.style.flexDirection = "column";
-        nav.style.position = "absolute";
-        nav.style.top = "70px";
-        nav.style.right = "20px";
-        nav.style.background = "#111";
-        nav.style.padding = "20px";
-        nav.style.borderRadius = "15px";
-    }
+    nav.classList.toggle("active");
 
 });
 
 
 
 
-// Smooth appearance animation
+// Smooth scrolling
 
-const cards = document.querySelectorAll(".card, .project");
+document.querySelectorAll("a").forEach(link=>{
 
+    link.addEventListener("click",function(e){
 
-const observer = new IntersectionObserver((entries)=>{
+        const target = document.querySelector(this.getAttribute("href"));
 
-entries.forEach(entry=>{
+        if(target){
 
-    if(entry.isIntersecting){
+            e.preventDefault();
 
-        entry.target.style.opacity = "1";
-        entry.target.style.transform = "translateY(0)";
+            target.scrollIntoView({
+                behavior:"smooth"
+            });
 
-    }
+        }
+
+    });
 
 });
 
-});
 
 
 
-cards.forEach(card=>{
+// Inquiry button message
 
-    card.style.opacity="0";
-    card.style.transform="translateY(40px)";
-    card.style.transition="0.7s";
+const form = document.querySelector("form");
 
-    observer.observe(card);
+
+form.addEventListener("submit",(e)=>{
+
+    e.preventDefault();
+
+    alert(
+    "Thank you for your inquiry. Deshet Global Investment will contact you soon."
+    );
+
+    form.reset();
 
 });

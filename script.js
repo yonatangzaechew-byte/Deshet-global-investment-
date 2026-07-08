@@ -1,56 +1,106 @@
-// Mobile menu
+// Mobile menu button
 
 const menu = document.querySelector(".menu");
-const nav = document.querySelector("nav ul");
 
 
-menu.addEventListener("click",()=>{
+menu.addEventListener("click", function(){
 
-    nav.classList.toggle("active");
+    alert("Menu opened");
+
+});
+
+
+
+
+
+// Smooth reveal animation when scrolling
+
+const cards = document.querySelectorAll(
+".product-card, .contact-box div, .about, .ceo"
+);
+
+
+
+const observer = new IntersectionObserver(
+(entries)=>{
+
+entries.forEach(entry=>{
+
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform="translateY(0)";
+
+}
+
+
+});
+
+
+},
+{
+threshold:0.2
+}
+);
+
+
+
+
+cards.forEach(card=>{
+
+card.style.opacity="0";
+
+card.style.transform="translateY(50px)";
+
+card.style.transition="0.8s";
+
+
+observer.observe(card);
+
 
 });
 
 
 
-
-// Smooth scrolling
-
-document.querySelectorAll("a").forEach(link=>{
-
-    link.addEventListener("click",function(e){
-
-        const target = document.querySelector(this.getAttribute("href"));
-
-        if(target){
-
-            e.preventDefault();
-
-            target.scrollIntoView({
-                behavior:"smooth"
-            });
-
-        }
-
-    });
-
-});
 
 
 
 
 // Inquiry button message
 
-const form = document.querySelector("form");
+
+const button = document.querySelector("button");
 
 
-form.addEventListener("submit",(e)=>{
+button.addEventListener("click",()=>{
 
-    e.preventDefault();
 
-    alert(
-    "Thank you for your inquiry. Deshet Global Investment will contact you soon."
-    );
+alert(
+"Thank you for your inquiry. We will contact you soon."
+);
 
-    form.reset();
 
 });
+
+
+
+
+
+
+// Current year footer
+
+
+const year = new Date().getFullYear();
+
+
+const copyright = document.querySelector(".copyright");
+
+
+if(copyright){
+
+copyright.innerHTML =
+"© "+year+" Deshet Global Trading PLC";
+
+}

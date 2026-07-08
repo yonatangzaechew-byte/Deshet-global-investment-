@@ -229,3 +229,15 @@ font-size:20px;
 }
 
 }
+
+.card{
+    width:320px !important;
+    border-radius:30px !important;
+    overflow:hidden;
+}
+
+.card img{
+    height:350px !important;
+    width:100% !important;
+    object-fit:cover !important;
+}
